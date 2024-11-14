@@ -5,9 +5,12 @@
   description: job-description-bos-washington-commander
   playTimeTracker: BoSWashingtonCommander
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: BrotherhoodWashington
-      min: 72000 #20 hours
+  - !type:CharacterSpeciesRequirement
+    species:
+    - Human
+  - !type:CharacterDepartmentTimeRequirement
+    department: BrotherhoodWashington
+    min: 72000 #20 hours
   weight: 10
   startingGear: BoSWashingtonCommanderGear
   alwaysUseSpawner: true
@@ -23,11 +26,6 @@
       - type: NpcFactionMember
         factions:
           - BrotherhoodWashington
-  jobBlockForSpecies:
-  - !type:JobBlockForSpecie
-    nameSpecie: Ghoul
-  - !type:JobBlockForSpecie
-    nameSpecie: GhoulGlowing
 
 - type: startingGear
   id: BoSWashingtonCommanderGear
