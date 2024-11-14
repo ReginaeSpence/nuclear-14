@@ -3,6 +3,11 @@
   setPreference: true
   name: job-name-bos-washington-initiate
   description: job-description-bos-washington-initiate
+  requirements:
+  - !type:CharacterSpeciesRequirement
+    species:
+    - Human
+    - Ghoul
   playTimeTracker: BoSWashingtonInitiate
   startingGear: BoSWashingtonInitiateGear
   alwaysUseSpawner: true
@@ -17,11 +22,6 @@
       - type: NpcFactionMember
         factions:
           - BrotherhoodWashington
-  jobBlockForSpecies:
-  - !type:JobBlockForSpecie
-    nameSpecie: Ghoul
-  - !type:JobBlockForSpecie
-    nameSpecie: GhoulGlowing
 
 - type: startingGear
   id: BoSWashingtonInitiateGear
