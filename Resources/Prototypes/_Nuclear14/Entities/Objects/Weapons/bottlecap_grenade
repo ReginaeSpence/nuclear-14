@@ -14,7 +14,7 @@
     delay: 5
     delayOptions: [5, 10]
     initialBeepDelay: 0
-    beepSound: /Audio/Machines/Nuke/general_beep.ogg
+    beepSound: _Nuclear14/mine_tick
   - type: TriggerOnSignal
   - type: Explosive # Powerful explosion in a very small radius. Doesn't break underplating.
     explosionType: DemolitionCharge
