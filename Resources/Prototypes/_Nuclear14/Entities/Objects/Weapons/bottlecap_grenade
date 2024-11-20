@@ -5,7 +5,7 @@
   id: C4
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/c4.rsi
+    sprite: Objects/Misc/crafting_junk.rsi/lunchbox.png
     state: icon
     layers:
     - state: icon
