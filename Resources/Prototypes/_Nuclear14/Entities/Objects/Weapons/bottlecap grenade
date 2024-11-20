@@ -1,0 +1,25 @@
+- type: entity
+  name: bottlecap grenade
+  description: Some crazy inventor's take on a bottlecap mine, now throwable!
+  parent: BasePlasticExplosive
+  id: C4
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Bombs/c4.rsi
+    state: icon
+    layers:
+    - state: icon
+      map: ["base"]
+  - type: OnUseTimerTrigger
+    delay: 5
+    delayOptions: [5, 10]
+    initialBeepDelay: 0
+    beepSound: /Audio/Machines/Nuke/general_beep.ogg
+  - type: TriggerOnSignal
+  - type: Explosive # Powerful explosion in a very small radius. Doesn't break underplating.
+    explosionType: DemolitionCharge
+    totalIntensity: 50
+    intensitySlope: 4
+    maxIntensity: 30
+    canCreateVacuum: false
+  - type: ExplodeOnTrigger
