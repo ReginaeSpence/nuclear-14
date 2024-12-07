@@ -28,17 +28,17 @@ job-description-caravan-leader = Coordinate the caravan company in the area and 
 job-name-caravan-trader = Caravan Trader
 job-description-caravan-trader = Conduct trade missions and travel caravan routes to generate profit for the company.
 job-name-caravan-guard = Caravan Guard
-job-description-caravan-guard = Protect the caravan company traders, their livestock and their inventory.
+job-description-caravan-guard = Protect the caravan company traders, their livestock, and their inventory.
 
 # NCR
 job-name-ncr-cadet = NCR Cadet
-job-description-ncr-cadet = Show your officers that youre ready to become a private of the NCR army.
+job-description-ncr-cadet = Show your officers that you're ready to become a private of the NCR army.
 job-name-ncr-medic = NCR Medic
-job-description-ncr-medic = Treat the troopers and offer services to the wasteland people.
+job-description-ncr-medic = Treat the troops and offer services to the wasteland people.
 job-name-ncr-sgt = NCR Sergeant
 job-description-ncr-sgt = A non-commissioned officer in the NCR military. Lead a squad to protect the NCRs interests in the region.
 job-name-ncr-lt = NCR Lieutenant
-job-description-ncr-lt = The local leader of the NCR military. Fulfil your missions by coordinating your military forces in the area. Organise your Sergeants.
+job-description-ncr-lt = The local leader of the NCR military. Fulfill your missions by coordinating your military forces in the area. Organise your Sergeants.
 job-name-ncr-soldier = NCR Soldier
 job-description-ncr-soldier = The backbone of any military. Soldiers get stuff done and follow a Sergeant on missions.
 job-name-ncr-engineer = NCR Engineer
@@ -94,13 +94,13 @@ job-description-wastelander = Survive in the wasteland and carve out your own pa
 
 # Town
 job-name-townsperson = Townsperson
-job-description-townsperson = A member of the new world society. Follow the town rules or try run for Mayor to change them.
+job-description-townsperson = A member of the new world society. Follow the town rules or try running for Mayor to change them.
 job-name-towndoctor = Town Doctor
 job-description-towndoctor = Sell your medical knowledge as a service. Treat the injured for money and manage a doctors practice in town.
 job-name-townmechanic = Town Mechanic
 job-description-townmechanic = Maintain the towns services and infrastructure and do what you can on the side for others for money.
 job-name-townshopkeeper = Town Shopkeeper
-job-description-townshopkeeper = Setup shop in town, organise trade partnerships and sell your wares to the wanderes of the wastes. Beware the tax man.
+job-description-townshopkeeper = Setup shop in town, organise trade partnerships, and sell your wares to the wanderers of the wastes. Beware the tax man.
 job-name-towndeputy = Town Deputy
 job-description-towndeputy = Deputy peacekeeper for the town. Keep the peace and provide backup to your Sheriff.
 job-name-townsheriff = Town Sheriff
@@ -110,7 +110,7 @@ job-description-townmayor = Maintain civilisation in the town. Set taxes and law
 job-name-townreporter = Town Reporter
 job-description-townreporter = Interview people and spread the news across the region, or just have a talk show!
 job-name-townbartender = Town Innkeeper
-job-description-townbartender = Manage the local bar, kitchen and rooms that are there for renting. Run a business in town!
+job-description-townbartender = Manage the local bar, kitchen, and rooms that are there for renting. Run a business in town!
 
 # Followers
 job-name-followers = Followers of the Apocalypse
