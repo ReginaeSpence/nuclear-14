@@ -11,7 +11,8 @@
       netsync: true
       scale: 0.75, 0.75
     - type: StaticPrice
-      price: 20
+      #price: 20
+      price: .05
 
 - type: entity
   parent: N14SeedBase

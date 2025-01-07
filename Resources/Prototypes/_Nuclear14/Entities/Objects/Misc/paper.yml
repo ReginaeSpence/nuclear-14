@@ -47,6 +47,8 @@
     normalState: fire
   - type: Damageable
     damageModifierSet: Wood
+  - type: StaticPrice
+    price: 50
   - type: Destructible
     thresholds:
     - trigger:

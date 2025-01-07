@@ -84,7 +84,7 @@
     - cig8
   - type: Appearance
   - type: StaticPrice
-    price: 5
+    price: 0
 
 # - type: entity
   # parent: N14CigPackBase

@@ -213,7 +213,7 @@
   unit: materials-unit-bill
   stackEntity: N14CurrencyNCRDollar
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: ncr3 }
-  price: 0.66
+  price: 0.5
 
 # NCR Dollars
 - type: entity
@@ -225,7 +225,7 @@
   - type: Cash
   - type: PhysicalComposition
     materialComposition:
-      NcrCredit: 1
+      NcrCredit: .5
   - type: Stack
     stackType: NCRDollar
     count: 1
