@@ -43,7 +43,7 @@ namespace Content.Server.Body.Systems
 
         private void OnMapInit(Entity<MetabolizerComponent> ent, ref MapInitEvent args)
         {
-            ent.Comp.NextUpdate = _gameTiming.CurTime + ent.Comp.UpdateInterval;
+            ent.Comp.NextUpdate = _gameTiming.CurTime + ent.Comp.UpdateInterval * (1+_random.NextFloat());
         }
 
         private void OnUnpaused(Entity<MetabolizerComponent> ent, ref EntityUnpausedEvent args)
@@ -80,15 +80,8 @@ namespace Content.Server.Body.Systems
         {
             base.Update(frameTime);
 
-            var metabolizers = new ValueList<(EntityUid Uid, MetabolizerComponent Component)>(Count<MetabolizerComponent>());
             var query = EntityQueryEnumerator<MetabolizerComponent>();
-
-            while (query.MoveNext(out var uid, out var comp))
-            {
-                metabolizers.Add((uid, comp));
-            }
-
-            foreach (var (uid, metab) in metabolizers)
+            while (query.MoveNext(out var uid, out var metab))
             {
                 // Only update as frequently as it should
                 if (_gameTiming.CurTime < metab.NextUpdate)

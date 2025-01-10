@@ -455,6 +455,34 @@
   - type: ClothingSpecialModifier
     perceptionModifier: 1
 
+# Chinese renmants
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingHeadHatChinese
+  name: chinese hat
+  description: A ushanka style of hat with the communist chinese insignia on the front.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Head/FalloutHats/chinesehat.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Head/FalloutHats/chinesehat.rsi
+  - type: ClothingSpecialModifier
+    perceptionModifier: 1
+
+# Vancouver preventors
+- type: entity
+  parent: ClothingHeadBase
+  id: N14ClothingHeadHatVancouver
+  name: vancouver preventor cap
+  description: A simple green cap used by the vancouver preventor force.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Head/FalloutHats/vancouverhat.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/Head/FalloutHats/vancouverhat.rsi
+  - type: ClothingSpecialModifier
+    charismaModifier: 1
+
 # Vault
 - type: entity
   parent: ClothingHeadBase
@@ -506,14 +534,9 @@
     sprite: _Nuclear14/Clothing/Head/FalloutHats/nightstalkerhat.rsi
   - type: Clothing
     sprite: _Nuclear14/Clothing/Head/FalloutHats/nightstalkerhat.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.95
-        Heat: 0.95
-        Poison: 0.8
+  - type: Construction
+    graph: NightstalkerhatGraph
+    node: head
   - type: ClothingSpecialModifier
     enduranceModifier: 1
 
@@ -541,7 +564,7 @@
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/caravancompanyuniformhat.rsi
   - type: Clothing
-    sprite: _Nuclear14/Clothing/Head/Hats/FalloutHats/caravancompanyuniformhat.rsi
+    sprite: _Nuclear14/Clothing/Head/FalloutHats/caravancompanyuniformhat.rsi
   - type: ClothingSpecialModifier
     charismaModifier: 1
 
@@ -554,6 +577,6 @@
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/caravancompanysuithat.rsi
   - type: Clothing
-    sprite: _Nuclear14/Clothing/Head/Hats/FalloutHats/caravancompanysuithat.rsi
+    sprite: _Nuclear14/Clothing/Head/FalloutHats/caravancompanysuithat.rsi
   - type: ClothingSpecialModifier
     charismaModifier: 2
