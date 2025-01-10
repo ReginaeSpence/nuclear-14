@@ -54,3 +54,21 @@
     count: 10
   - type: TimedDespawn
     lifetime: 0.25
+
+ - type: entity
+  id: CapClusterLethal
+  name: Caps
+  noSpawn: true
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/currency.rsi/caps.png
+    state: buckshot
+  - type: Projectile
+    deleteOnCollide: false
+    damage:
+      types:
+        Slash: 10
+        Piercing: 10
+  - type: TimedDespawn
+    lifetime: 0.10
