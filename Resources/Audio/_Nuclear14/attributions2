@@ -2,3 +2,8 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "Taken from Bloomberg News broadcast, in turn taken from Todd Howard 'you may need to upgrade your PC for this game' green screen by Green Screen Videos by Murdoink. Not sure how to attribute this.."
   source: "https://www.youtube.com/watch?v=dgzlXXCV3NQ , the video"
+  
+- files: ["Wpn_mine_lunchbox_attack (online-audio-converter.com)", "Wpn_mine_tick (online-audio-converter.com)"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Bethesda Softworks."
+  source: "https://fallout.fandom.com/wiki/Bottlecap_mine_(Fallout:_New_Vegas), https://fallout.fandom.com/wiki/Frag_mine_(Fallout_3)"
